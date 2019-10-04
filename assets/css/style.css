@@ -1,0 +1,160 @@
+.hero-logo{
+    height: 75px;
+}
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+    padding: 25px 45px;
+}
+.navbar ul{
+    float: right !important;
+}
+.navbar li{
+    display: inline-block;
+    margin: 0 35px;
+}
+.navbar a {
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+} 
+.navbar a:hover {
+  color: #e6e6e6;
+}
+.navbar a:focus{
+  border-bottom: 2px solid red;
+  padding-bottom: 7px;
+
+}
+.home-banner{
+    height: 700px;
+    position: relative;
+    background-image: linear-gradient(
+    135deg,
+    rgba(255, 40, 40, 0.75) 75px,
+    rgb(153, 81, 81, 0.75) 0px,
+    rgba(172, 82, 82, 0.75) 150px,
+    rgba(105, 96, 96, 0.5) 0px,
+    rgba(105, 96, 96, 0.5) 225px,
+    transparent 0px
+  ),
+  linear-gradient(
+    -45deg,
+    rgba(255, 40, 40, 0.75) 75px,
+    rgb(153, 81, 81, 0.75) 0px,
+    rgba(172, 82, 82, 0.75) 150px,
+    rgba(105, 96, 96, 0.5) 0px,
+    rgba(105, 96, 96, 0.5) 225px,
+    transparent 0px
+  ),
+  url("../images/home_banner.jpg");
+}
+.btn-grad-dl{
+  background: linear-gradient(
+    45deg,
+    rgb(173, 6, 189),
+    rgb(199, 46, 46)
+  );
+  padding: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+.btn-grad-dl:hover{
+  text-decoration: none;
+  color: #fff;
+}
+#signup-btn{
+  position: absolute;
+  top: 150px;
+  right: 0;
+}
+.btn-round{
+  background: linear-gradient(
+    -45deg,
+    rgb(28, 45, 202),
+    rgb(79, 165, 223)
+  );
+  padding: 15px;
+  border-radius: 50%;
+  text-decoration: none;
+  color: #fff;
+}
+.btn-round:hover{
+  text-decoration: none;
+  color: #fff;
+}
+#blog-btn{
+  position: absolute;
+  top: 300px;
+  right: 0;
+  text-transform: uppercase;
+  padding: 22px 15px;
+}
+.banner-content{
+  width:38%;
+  font-family: 'Montserrat' !important;
+  position: absolute;
+  top: 35%;
+  left: 15%;
+  text-align: left;
+}
+.banner-body{
+  padding: 0 25px !important;
+  border-left-width: 5px;
+  border-left-color: red;
+  border-left-style: solid;
+}
+.banner-title{
+  font-size: 45px;
+  color: #fff;
+}
+.banner-desc{
+  margin-top: 5px;
+  color:  #dddddd;
+}
+.banner-footer{
+  padding: 50px 25px !important;
+}
+.btn-grad-ld{
+  background: linear-gradient(
+    135deg,
+    rgb(199, 46, 46),
+    rgb(173, 6, 189)
+  );
+  padding: 15px;
+  color: #fff;
+  text-decoration: none ;
+}
+.btn-grad-ld:hover{
+  text-decoration: none;
+  color: #fff;
+}
+.media{
+  position: relative;
+  margin-top: 50px;
+}
+.media .banner-content{
+  width: 25%
+}
+.media .banner-body{
+  text-align:right;
+}
+.media .banner-title{
+  color: #000;
+}
+#media-player{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 500px;
+  z-index: -1;
+}
+#group{
+  height: 150px;
+  /* float:left; */
+}
